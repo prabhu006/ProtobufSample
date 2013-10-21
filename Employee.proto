@@ -1,0 +1,12 @@
+package tutorial;
+
+option java_package = "com.mportal.sample.tutorial";
+option java_outer_classname = "EmployeeProtos";
+
+message Employee {
+  required int32 id = 1;
+  required string name = 2;
+  required string email = 3;
+  optional string team = 4;
+}
+
